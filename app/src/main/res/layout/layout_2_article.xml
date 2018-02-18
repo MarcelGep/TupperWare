@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_catalog_info"
+    android:paddingBottom="0dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="0dp"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tupperware.marcel.tupperware.CatalogInfo">
+
+
+    <TextView
+        android:text="Inhalt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvContent"
+        android:textStyle="normal|bold"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@+id/tvPrice"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvContentContent" />
+
+    <TextView
+        android:text="Farbe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvColor"
+        android:textStyle="normal|bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvColorContent"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@+id/tvPrice" />
+
+    <TextView
+        android:text="Notiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNote"
+        android:textStyle="normal|bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvNoteContent"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@+id/tvColor" />
+
+    <TextView
+        android:text="Preis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPrice"
+        android:textStyle="normal|bold"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvPriceContent"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:text="preis"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPriceContent"
+        android:layout_marginStart="32dp"
+        app:layout_constraintLeft_toRightOf="@+id/tvPrice"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvContentContent"
+        android:textSize="15sp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:text="farbe"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvColorContent"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvPriceContent"
+        app:layout_constraintLeft_toLeftOf="@+id/tvPriceContent"
+        android:textSize="15sp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.06" />
+
+    <TextView
+        android:text="Maße"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDimension"
+        android:textStyle="normal|bold"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="@+id/tvContent"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvDimensionsContent" />
+
+    <TextView
+        android:text="notiz"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNoteContent"
+        app:layout_constraintLeft_toLeftOf="@+id/tvColorContent"
+        android:layout_width="0dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvColorContent"
+        android:textSize="15sp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical" />
+
+    <TextView
+        android:text="dimension"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDimensionsContent"
+        android:textSize="15sp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/tvContentContent"
+        app:layout_constraintHorizontal_bias="0.12"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:text="inhalt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvContentContent"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvDimensionsContent"
+        app:layout_constraintLeft_toLeftOf="@+id/tvPriceContent"
+        android:textSize="15sp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>

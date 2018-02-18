@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TupperWare</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="etErrorMessage">Eingabe fehlt!</string>
+    <string name="etErrorMessage2">Bitte eine Zahl eingeben!</string>
+    <string name="cab_delete">Einträge löschen</string>
+    <string name="cab_checked_string">ausgewählt</string>
+    <string name="cab_change">Eintrag ändern</string>
+    <string name="dialog_title">Eintrag ändern</string>
+    <string name="dialog_title_dimensions">Maße:</string>
+    <string name="dialog_title_content">Inhalt:</string>
+    <string name="dialog_title_price">Preis:</string>
+    <string name="dialog_title_color">Farbe:</string>
+    <string name="dialog_title_quantity">Bestand:</string>
+    <string name="dialog_title_note">Notiz:</string>
+    <string name="dialog_button_positive">Ändern</string>
+    <string name="dialog_button_negative">Abbrechen</string>
+    <string name="artnr">Artikel-Nr</string>
+    <string name="description">Bezeichnung</string>
+    <string name="auf">open</string>
+    <string name="zu">close</string>
+    <string-array name="tabs">
+        <item>TAB 1</item>
+        <item>TAB 2</item>
+        <item>TAB 3</item>
+    </string-array>
+</resources>

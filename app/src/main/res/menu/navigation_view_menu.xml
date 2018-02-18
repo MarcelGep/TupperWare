@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single"
+        >
+
+        <item
+            android:id="@+id/myTupperWare"
+            android:title="Meine TupperWare"
+            android:icon="@drawable/ic_portrait_black_24dp"
+            />
+        <item
+            android:id="@+id/catalog"
+            android:title="TupperWare Katalog"
+            android:icon="@drawable/catalog"
+            />
+        <item
+            android:id="@+id/newArticle"
+            android:title="Artikel erstellen"
+            android:icon="@drawable/ic_add_circle_black_24dp"
+            />
+
+    </group>
+</menu>
